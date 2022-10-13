@@ -212,7 +212,7 @@ body {
   position: absolute;
   width: 5.6rem;
   height: 5.6rem;
-  background-image: url("../images/icon-cross.svg");
+  background-image: url("./images/icon-cross.svg");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
@@ -255,61 +255,6 @@ body {
 
 .card-4, .card-5, .card-6 {
   margin-top: 7.5rem;
-}
-
-.ham-menu {
-  z-index: 1;
-  position: fixed;
-  right: -50rem;
-  width: 35rem;
-  height: 100vh;
-  background-color: #2C6269;
-  background-image: url("../images/bg-pattern-about-1-mobile-nav-1.svg");
-  background-repeat: no-repeat;
-  background-position: bottom 0 right -10rem;
-  transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
-  transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.ham-menu_close {
-  margin: 5rem 0 2.5rem 70%;
-  cursor: pointer;
-}
-
-.ham-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  margin-right: auto;
-}
-
-.ham-list_item:not(:last-child) {
-  margin-right: 4.1rem;
-}
-
-.ham-list_item {
-  transition: transform 0.2s;
-  transition: transform 0.2s;
-  margin-bottom: 2rem;
-}
-
-.ham-list_item:hover {
-  color: #F67E7E;
-  transform: rotate(-5deg) scale(1.15);
-}
-
-.ham-list_link {
-  text-decoration: none;
-  color: inherit;
-  background-color: #2C6269;
-}
-
-.ham-open {
-   transform: translateX(-50rem);
 }
 
 .user-nav {
